@@ -12,12 +12,14 @@
   </head>
   <body>
 
+
     <!-- Portada con foto de perro -->
       	<div id="portada">
         <div class="row justify-content-center">
           <div class="fondo-portada"><br>
       			<div class="col-sm ">
-      				<div class="logo-portada"><img src="./assets/dog-icon.png" style="text-align:center; width:32px;" alt="ubicaanimal.com"/></div>
+      				<div class="logo-portada"><img src="./assets/dog-icon.png" style="text-align:center; width:32px;" alt="ubicaanimal.com"/>
+              <img src="./assets/cat-icon.png" style="text-align:center; width:29px;" alt="ubicaanimal.com"/></div>
       				<div class="titulo-portada">Ubica Animal</div>
       				<div class="sub-portada"><p>Una red de <strong>contención, búsqueda y ubicación</strong></p>
                 <p>para mascotas en <strong>situación de vulnerabilidad</strong></p></div>
@@ -69,7 +71,7 @@
       </div>
  -->
 
- <div class="card">
+ <div class="card-help-us card">
    <div class="card-body">
      <h5 class="card-title">Qué es Ubica Animal?</h5>
      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
@@ -80,29 +82,54 @@
  </div>
 
 
-      <div class="quiero-adoptar">
-        <h3>Quiero adoptar</h3>
-        <p> dolor sit amet lorem impsum dolor sit amet  lorem
-         sit amet lorem impsum dolor</p>
+  <div class="quiero row">
+    <div class="card quiero-adoptar col-sm">
+      <div class="card-body">
+        <h5 class="card-title">Quiero adoptar</h5>
+        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+        <p class="card-text">Estoy buscando una mascota!</p>
+        <a href="#" class="card-link">Ver listado</a>
       </div>
+    </div>
 
-      <div class="quiero-ubicar">
-        <h3>Quiero ubicar</h3>
-        <p> dolor sit amet lorem impsum dolor sit amet  lorem
-         sit amet lorem impsum dolor</p>
+    <div class="card quiero-dar col-sm">
+      <div class="card-body">
+        <h5 class="card-title">Dar en adopción</h5>
+        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+        <p class="card-text">Tengo una mascota que necesita hogar.</p>
+        <a href="#" class="card-link">Contactanos</a>
       </div>
+    </div>
+
+  </div>
+
+
+<!--
+  <div class="quiero-ubicar col-sm">
+    <h3>Quiero ubicar</h3>
+    <p> dolor sit amet lorem impsum dolor sit amet  lorem
+     sit amet lorem impsum dolor</p>
+  </div>
+</div> -->
+
 
 
       <div class="mapback">
-        <p>Mapa interactivo (próximamente)</p>
-        <!-- here goes the map -->
+        <p id="text-map">Mapa interactivo (próximamente)</p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13135.405118791488!2d-58.36598589999999!3d-34.607922!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1526253268436" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+
       </div>
 
       <div class="footer">
-
+        <ul>
+          <li><a href="https://facebook.com/ubicanimal" target="_blank">Facebook</a></li>
+          <li><a href="https://instagram.com/ubicanimal" target="_blank">Instagram</a></li>
+          <li>Teléfono: +54 11 292849382</li>
+        </ul>
       </div>
 
-      <!-- all the bootstrap scripts -->
+  <!-- all the bootstrap scripts -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

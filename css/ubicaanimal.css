@@ -54,11 +54,18 @@ body {
 
 .btn {
   margin: 0px 10px;
+
 }
 
-.card {
+body .card-help-us {
   width: 100%;
+  background-color: #FFDC64;
+  border-radius: 0;
+  padding-left: 10%;
+}
 
+body .card-help-us a {
+  color: #17A2B8;
 }
 
 .vision {
@@ -67,4 +74,23 @@ body {
   background-color: grey;
   margin: 0;
   color: white;
+}
+
+body .quiero-adoptar, body .quiero-dar {
+  border-radius: 0;
+  padding: 30px;
+}
+
+#text-map {
+  padding-top: 10px;
+  font-size: 13px;
+  margin-left: 5%;
+}
+
+.footer {
+  height: 200px;
+  background: black;
+  color: white;
+  padding-top: 40px;
+  margin-top: 0;
 }
