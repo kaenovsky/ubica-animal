@@ -1,0 +1,70 @@
+body {
+  font-family: 'Gothic A1', sans-serif;
+  /* font-size: 16px; */
+  background-color: #EAEAEA;
+  text-align: center;
+}
+
+.portada {
+  /* width: 600px;
+  height: 650px; */
+  text-align: center;
+  background-color: #000;
+}
+
+.fondo-portada {
+  background-image: url(../assets/dog-header.jpg);
+  /* height: 400px; */
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(19, 20, 20, 0.5), rgba(19, 20, 20, 0.2)), url(../assets/dog-header.jpg);
+  color: #FFF;
+}
+
+.fondo-portada .logo-portada {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+
+}
+
+.fondo-portada .titulo-portada {
+  font-size: 3em;
+  padding-bottom: 0.5em;
+}
+
+.fondo-portada .sub-portada {
+  font-size: 21px;
+  padding-bottom: 150px;
+}
+
+.sub-portada {
+  line-height: 0.8em;
+  overflow: hidden;
+}
+
+.ayuda {
+  /* height: 80px; */
+  background: #131918;
+  margin: 0;
+  padding: 20px 20px;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  margin: 0px 10px;
+}
+
+.card {
+  width: 100%;
+
+}
+
+.vision {
+  font-family: 'Gothic A1', sans-serif;
+  height: 200px;
+  background-color: grey;
+  margin: 0;
+  color: white;
+}
