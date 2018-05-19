@@ -94,3 +94,11 @@ body .quiero-adoptar, body .quiero-dar {
   padding-top: 40px;
   margin-top: 0;
 }
+
+li {
+  list-style: none;
+}
+
+.footer a {
+  color: white;
+}
